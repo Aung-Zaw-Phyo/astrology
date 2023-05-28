@@ -13,19 +13,23 @@ $(document).ready(function () {
 
     let options = ''
 
-    years.forEach(year => {
-        options += `<option value="${year}">${year}</option>`
-    })
-    birthyear.innerHTML += options
+    setTimeout(() => {
+        years.forEach(year => {
+            options += `<option value="${year}">${year}</option>`
+        })
+        birthyear.innerHTML += options
+    }, 1000)
 
 
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-    let month_options = ''
-    months.forEach(month => {
-        month_options += `<option value="${month}">${month}</option>`
-    })
-    birthmonth.innerHTML += month_options
+    setTimeout(() => {
+        let month_options = ''
+        months.forEach(month => {
+            month_options += `<option value="${month}">${month}</option>`
+        })
+        birthmonth.innerHTML += month_options
+    }, 1000)
 
     $('.select-box').select2({
         theme: 'bootstrap-5',

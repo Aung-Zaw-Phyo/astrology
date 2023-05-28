@@ -23,13 +23,15 @@ body {
     border: 1px solid #eee;
     background-color: #fff;
     border-radius: 5px;
-    height: 100%;
-    overflow: scroll;
 }
 
 .title {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.normal_font{
+    font-size: 18px !important;
 }
 
 

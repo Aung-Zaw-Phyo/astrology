@@ -185,8 +185,8 @@ $(document).ready(function () {
             <div class="text-end mb-2">
                 <span class="bg-dark badge badge-dark p-2"><i class="fa-solid fa-moon"></i> ${natkhat_output}</span>
             </div>
-            <p class="mb-2">လူကြီးမင်းသည် <span class="text-primary">${result_phwar.name}</span>ဖွားဖြစ်ပါသည်။</p>
-            <p class="lh-lg">${result_phwar.description}</p>
+            <p class="mb-2 normal_font">လူကြီးမင်းသည် <span class="text-primary">${result_phwar.name}</span>ဖွားဖြစ်ပါသည်။</p>
+            <p class="lh-lg normal_font">${result_phwar.description}</p>
         `
     
         output.innerHTML += result;
